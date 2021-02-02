@@ -1,0 +1,21 @@
+<html>
+    <body>
+        <script>
+            let max = 0;
+            let n = Number(prompt("Enter Price :"));
+            let min = n;
+            while (n !== -99){
+                if (n>max){
+                    max = n;    
+                } 
+                if (n<min){
+                    min = n;
+                }
+            
+                n = Number(prompt("Enter Price :"))
+            }
+            alert("Hasil max :"+max+"Hasil min"+min);
+            
+        </script>
+    </body>
+</html>

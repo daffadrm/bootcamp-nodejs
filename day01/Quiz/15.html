@@ -1,0 +1,24 @@
+<html>
+    <body>
+        <script>
+            let n = 0;
+            angkaAcak = Math.floor(Math.random()*20);;
+            let sum = 0;
+
+            //mengacak angka
+
+            //form input tebakan
+            n = Number(prompt("tebak angka antara 0 - 20"));
+            while(n !== angkaAcak){
+                
+            // akan selalu menampilkan prompt jika nilai yang dimasukkan tidak sama dengan nilaiAcak
+                if (n < angkaAcak){
+                    n = Number (prompt("Terlalu kecil masukkan lagi :"));
+                } else if (n > angkaAcak){
+                    n = Number (prompt("terlalu besar, masukkan lagi"));
+                }
+            }
+            alert("kamu benar! angkanya adalah "+angkaAcak);
+        </script>
+    </body>
+</html>
