@@ -17,6 +17,7 @@ console.log (list);
 //remove element
 list.pop();
 console.log(list);
+////
 
 //add element index pertama
 list.unshift("x");
