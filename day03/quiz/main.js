@@ -3,24 +3,6 @@ import {totalBeasiswa,totalInsentif,totalRegular,totalNetprice,totStuBootcamp} f
 
 
 function main (){
-    // const satu = new Peserta("Asep", "Bandung", "S1", "3.45", "Beasiswa", "NodeJs", "1", "2019", "3", "100000" );
-    // console.log(satu);
-    // const dua = new Peserta("Ami", "Bogor", "S1", "3.10", "Beasiswa", "NodeJS", "1", "2019", "3", "100000" );
-    // console.log(dua);
-    // const tiga = new Peserta("Budi", "Depok", "S1", "3.25", "Beasiswa", "Java", "2", "2020", "3", "100000" );
-    // console.log(tiga);
-    // const empat = new Peserta("Cindy", "Jakarta", "D3", "3.30", "Beasiswa", "Java", "2", "2020", "3", "100000" );
-    // console.log(empat);
-    // const lima = new Peserta("Dedy", "Bekasi", "S2", "2.98", "Beasiswa", "NodeJS", "1", "2019", "4", "100000" );
-    // console.log(lima);
-    // const enam = new Peserta ("Desta", "Jakarta", "S1", "3.15","Regular","Golang", "3", "2021","3","5000000" );
-    // console.log(enam);
-    // const tujuh = new Peserta ("Shinta", "Jakarta", "S1", "3.15","Regular","Golang", "3", "2021","4","5000000" );
-    // console.log(tujuh);
-    // const delapan = new Peserta ("Meita", "Jakarta", "S1", "3.00","Regular","Golang", "3", "2021","4","7000000" );
-    // console.log(delapan);
-    
-
     const Asep = new Beasiswa ("Asep", "Bandung", "S1", "3.45", "Beasiswa", "NodeJS", "1", "2019", "3", 100000);
     console.log(Asep);
     const Ami = new Beasiswa ("Ami", "Bogor", "S1", "3.10", "Beasiswa", "NodeJS", "1", "2019", "3", 100000);

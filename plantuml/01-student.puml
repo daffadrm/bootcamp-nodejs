@@ -1,0 +1,22 @@
+@startuml student-bootcamp
+
+class Peserta {
+    +name :String
+    +city :String
+    +ducation :String
+    +grade :String
+
+    +info():String
+}
+
+class Beasiswa extends Peserta {
+    +Insentif
+
+}
+class Regular {
+    +netPrice
+}
+
+interface ApiQuiz{
+    +total
+}
